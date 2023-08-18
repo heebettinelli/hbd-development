@@ -40,7 +40,7 @@
         background-color: var(--cor02);
     }
 
-    header {
+    .header {
         display: flex;
         align-items: center;
     }
@@ -66,15 +66,15 @@
 
 
 
-/*
+
 
 @media screen and (min-width: 812px) and (max-width: 1950px) {
 
 main{
     padding: 10px;
     margin: auto;
-    width: 80vw;
-    height: 90vh;
+    width: 90vw;
+    height: 95vh;
     border-radius: 10px;
     position: absolute;
     top: 50%;
@@ -87,119 +87,24 @@ body {
     background-color: var(--cor01);
 }
 
-
-header{
-    display: fixed;
-    background-color: var(--cor01);
-    width: 100vw;
-    height: 150px;
-    
-}
-.logo{
-    width: 110px;
-    height: 90px;
-    padding-left: 50px;
-    margin: auto;
-    
-    
-}
-.menu{
-    display:flex ;
-    text-align: justify;
-    height: 5px;
-    font-size: 18px;
-    position: relative;
-    justify-content: space-evenly;
-    
-}
-.menu > a{
-    margin: 0px 1px;
-    position: relative;
-    color: var(--cor02);
-    text-decoration: none;
-    
-}
-.menu > a:hover{
-    text-decoration: underline;
-}
-
-
-
-.scroll1{
-    font-family: var(--fonte-principal);
-    font-size: 5vh;
-    padding: 15%;
-    text-align: center;
-}
-.cta{
-    padding: 15px 55px;
-    margin-top: 50px;
-}
-.button{
-    padding: 10px 25px;  
-}
-h2{
-    text-align: center;
-    font-family: var(--fonte-principal);
-    font-size: 35px; 
-    padding: 5px 15px 15px 15px;
-}
-.portfolio{
+.menu {
     display: flex;
-    text-align: justify;
-    margin: 20px;
-    position: relative;
+    flex-direction: row;
     justify-content: space-evenly;
-    
-}
-.esquerda{
-    border: 1px solid var(--cor01);
-    width: 450px;
-    height: 600px;
-    padding: 10px;
-}
-.centro{
-    border: 1px solid var(--cor01);
-    width: 450px;
-    height: 600px;
-    padding: 10px;
-}
-.direita{
-    border: 1px solid var(--cor01);
-    width: 450px;
-    height: 600px;
-    padding: 10px;
-    
-}
-
-
-
-
-footer{
-    display: flex;
-    background-color: var(--cor01);
-    width: 100vw;
-    height: 50px;
-}
-footer.social-media{
-    position: relative;
-    justify-items: center ;
-    
-}
-.github{
-    position: absolute;
-    left: 91%;
-    
-}
-.behance{
-    position: absolute;
-    left: 93%;
-}
-.linkedin{
-    position: absolute;
-    left: 95%;
-}
 
 }
 
-*/
+.welcome {
+    width: 90vw;
+    height: 200px;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+    font-size: 35px;
+    margin: 10px;
+}
+
+}
