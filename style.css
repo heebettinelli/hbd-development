@@ -4,107 +4,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;400&display=swap');
 
 :root{
-    --cor01: #191A23;
+    --cor01: #1C2541;
     --cor02: #FEFCFB;
-    --cor03: #7F43FF;
+    --cor03: #2BA84A;
+    --cor04: #BF0603;
 
     --fonte-principal: 'Merriweather', serif;
     --fonte-secundaria: Arial, Helvetica, sans-serif;
     --fonte-apoio: 'Roboto Serif', serif;
 }
 
-@media all {
-    * {
-        padding: 0px;
-        margin: 0px;
-    }
+*{
+    margin: 0px;
 }
-
-@media screen and (min-width: 360px) and (max-width: 812px){
-
-    body {
-        background-color: var(--cor01);
-
-    }
-
-    main{
-        padding: 10px;
-        margin: auto;
-        width: 80vw;
-        height: 90;
-        border-radius: 10px;
-        position: absolute;
-        top:50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: var(--cor02);
-    }
-
-    .header {
-        display: flex;
-        align-items: center;
-    }
-
-    .logo {
-        width: 100px;
-        height: 100px;
-    }
-
-    .menu {
-        
-    }
-       
-    h1 {
-        text-align: center;
-    }
-    
-    .img1 {
-        width: 30px;
-        height: 30px;
-    }
-}
-
-
-
-
-
-@media screen and (min-width: 812px) and (max-width: 1950px) {
-
 main{
-    padding: 10px;
-    margin: auto;
-    width: 90vw;
-    height: 95vh;
-    border-radius: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: var(--cor02);
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-body {
+
+/*header*/
+header{
+    display: fixed;
     background-color: var(--cor01);
+    width: 100vw;
+    height: 150px;
+    
 }
-
-.menu {
-    display: flex;
-    flex-direction: row;
+.logo{
+    width: 110px;
+    height: 90px;
+    padding-left: 50px;
+    margin: auto;
+    
+    
+}
+.menu{
+    display:flex ;
+    text-align: justify;
+    height: 5px;
+    font-size: 18px;
+    position: relative;
     justify-content: space-evenly;
-
+    
+}
+.menu > a{
+    margin: 0px 1px;
+    position: relative;
+    color: var(--cor02);
+    text-decoration: none;
+    
+}
+.menu > a:hover{
+    text-decoration: underline;
 }
 
-.welcome {
-    width: 90vw;
-    height: 200px;
 
-}
-
-h1 {
+/*main*/
+.scroll1{
+    font-family: var(--fonte-principal);
+    font-size: 5vh;
+    padding: 15%;
     text-align: center;
-    margin: 15px;
-    font-size: 35px;
-    margin: 10px;
+}
+.cta{
+    padding: 15px 55px;
+    margin-top: 50px;
+}
+.button{
+    padding: 10px 25px;  
+}
+h2{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 35px; 
+    padding: 5px 15px 15px 15px;
+}
+.portfolio{
+    display: flex;
+    text-align: justify;
+    margin: 20px;
+    position: relative;
+    justify-content: space-evenly;
+    
+}
+.esquerda{
+    border: 1px solid var(--cor01);
+    width: 450px;
+    height: 600px;
+    padding: 10px;
+}
+.centro{
+    border: 1px solid var(--cor01);
+    width: 450px;
+    height: 600px;
+    padding: 10px;
+}
+.direita{
+    border: 1px solid var(--cor01);
+    width: 450px;
+    height: 600px;
+    padding: 10px;
+    
 }
 
+/*footer*/
+footer{
+    display: flex;
+    background-color: var(--cor01);
+    width: 100vw;
+    height: 50px;
+}
+footer.social-media{
+    position: relative;
+    justify-items: center ;
+    
+}
+.github{
+    position: absolute;
+    left: 91%;
+    
+}
+.behance{
+    position: absolute;
+    left: 93%;
+}
+.linkedin{
+    position: absolute;
+    left: 95%;
 }
