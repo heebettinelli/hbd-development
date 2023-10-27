@@ -4,10 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100;400&display=swap');
 
 :root{
-    --cor01: #1C2541;
-    --cor02: #FEFCFB;
-    --cor03: #2BA84A;
-    --cor04: #BF0603;
+    --cor01: #0B132B;
+    --cor02: #407BFF;
+    --cor03: #001C55;
+    --cor04: #FFF8F0;
 
     --fonte-principal: 'Merriweather', serif;
     --fonte-secundaria: Arial, Helvetica, sans-serif;
