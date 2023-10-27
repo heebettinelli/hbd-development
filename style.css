@@ -14,6 +14,11 @@
     --fonte-apoio: 'Roboto Serif', serif;
 }
 
+@media all {
+
+
+}
+
 *{
     margin: 0px;
 }
@@ -61,7 +66,7 @@ header{
 
 
 /*main*/
-.scroll1{
+.Home{
     font-family: var(--fonte-principal);
     font-size: 5vh;
     padding: 15%;
@@ -80,58 +85,13 @@ h2{
     font-size: 35px; 
     padding: 5px 15px 15px 15px;
 }
-.portfolio{
+.AboutMe{
     display: flex;
     text-align: justify;
     margin: 20px;
     position: relative;
     justify-content: space-evenly;
     
-}
-.esquerda{
-    border: 1px solid var(--cor01);
-    width: 450px;
-    height: 600px;
-    padding: 10px;
-}
-.centro{
-    border: 1px solid var(--cor01);
-    width: 450px;
-    height: 600px;
-    padding: 10px;
-}
-.direita{
-    border: 1px solid var(--cor01);
-    width: 450px;
-    height: 600px;
-    padding: 10px;
-    
-}
-
-/*footer*/
-footer{
-    display: flex;
-    background-color: var(--cor01);
-    width: 100vw;
-    height: 50px;
-}
-footer.social-media{
-    position: relative;
-    justify-items: center ;
-    
-}
-.github{
-    position: absolute;
-    left: 91%;
-    
-}
-.behance{
-    position: absolute;
-    left: 93%;
-}
-.linkedin{
-    position: absolute;
-    left: 95%;
 }
 
 @media screen and (min-width: 360px) and (max-width: 812px ){
@@ -145,6 +105,8 @@ footer.social-media{
 
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1990px ){
+@media screen and (min-width: 1025px) and (max-width: 1990px ){
     
+
+
 }
