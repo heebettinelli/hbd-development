@@ -15,55 +15,45 @@
 }
 
 @media all {
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
-
     body{
         background-color: var(--cor01);
+    }
+    p, h2, legend {
         color: var(--cor04);
+    }
+
+    h1.first{
+        display: inline;
+        color: var(--cor04);
+        font-size: 8vw;
+    }
+
+    h1.second{
+        display: inline;
+        color: var(--cor02);
+        font-size: 8vw;
+    }
+
+    h2.first{
+        display: inline;
+        color: var(--cor04);
+        font-size: 5vw;
+    }
+
+    h2.second{
+        display: inline;
+        color: var(--cor02);
+        font-size: 5vw;
     }
 }
 
 @media screen and (min-width: 360px) and (max-width: 812px ){
-    /*MENU AND HEADER*/
+    /*HEADER*/
     .menu{
         display: none;
     }
     .cta{
         display: none;
-    }
-
-    /*MAIN*/
-    main{
-        margin: auto;
-        padding-left: 5%;
-        padding-right: 5%;
-        align-items: center;
-    }
-
-    .Home{
-        font-family: var(--fonte-principal);
-        padding: 15%;
-        text-align: left;
-    }
-
-    
-    
-    h1{
-        text-align: center;
-        font-family: var(--fonte-principal);
-        font-size: 35px; 
-        padding: 5px 15px 15px 15px;
-    }
-    .AboutMe{
-        display: flex;
-        text-align: justify;
-        margin: 20px;
-        position: relative;
-        justify-content: space-evenly;
-        
     }
 
 }
