@@ -98,6 +98,35 @@
         width: 15vw;
         height: 5vh;
     }
+
+    .MySkills {
+        align-items: center;
+        height: 65vh;
+        padding: 9vw;
+
+    }
+
+    .Skills {
+        padding: 4vw;
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+        height: 25vh;
+    }
+
+    .FirstRow {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .SecondRow {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .SectionThree {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 813px) and (max-width: 1024px ) {
