@@ -144,6 +144,10 @@
         text-align: center;
     }
 
+    legend {
+        padding: 2%;
+    }
+
 
 }
 
