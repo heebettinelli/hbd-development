@@ -19,7 +19,7 @@
         background-color: var(--cor01);
     }
 
-    p, h2, legend {
+    p, h2, lable {
         color: var(--cor04);
     }
 
@@ -144,7 +144,7 @@
         text-align: center;
     }
 
-    legend {
+    lable {
         padding: 2%;
     }
 
