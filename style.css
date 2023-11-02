@@ -97,6 +97,10 @@
     #CV {
         width: 15vw;
         height: 5vh;
+        background-color: var(--cor02);
+        color: var(--cor04);
+        border: none;
+        border-radius: 5px;
     }
 
     .MySkills {
@@ -144,11 +148,23 @@
         text-align: center;
     }
 
-    lable {
-        padding: 2%;
+    .ContactMe {
+        padding: 10%;
     }
 
+    input {
+        width: 45vw;
+        height: 3vh;
+    }
 
+    #SendMessage {
+        width: 25vw;
+        height: 5vh;
+        background-color: var(--cor02);
+        color: var(--cor04);
+        border: none;
+        border-radius: 5px;
+    }
 }
 
 @media screen and (min-width: 813px) and (max-width: 1024px ) {
